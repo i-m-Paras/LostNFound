@@ -5,6 +5,11 @@ const http = require("http");
 const path = require("path");
 const mongoose = require("mongoose");
 const cors = require("cors");
+require("dotenv").config();
+
+const BASE_URL = process.env.BASE_URL;
+const DATABASE = process.env.DATABASE;
+const port = process.env.PORT;
 
 const errorController = require("./controllers/error");
 const userController = require("./controllers/user");
@@ -35,13 +40,11 @@ app.post("/deleteitem", userItemController.deteteItem);
 app.use(errorController.get404);
 
 mongoose
-  .connect(
-    "mongodb+srv://pa21mmb0a48:Paras123@lostnfoundcluster.cs53uil.mongodb.net/User?retryWrites=true&w=majority"
-  )
+  .connect(`${DATABASE}`)
   .then((result) => {
     console.log("connected database!");
 
-    const server = app.listen(8080);
+    const server = app.listen(port);
     const io = new Server(server, {
       cors: {
         origin: "http://localhost:3000",
