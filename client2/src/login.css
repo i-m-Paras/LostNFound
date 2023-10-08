@@ -1,0 +1,97 @@
+/* Login page css */
+.container_login {
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.container_login input {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.container_login button {
+  background-color: #3c9a77;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid black;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container_login button:hover {
+  background-color: #033a26;
+}
+
+.loginH1,
+.signupH1 {
+  margin-top: 2.5em;
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+}
+
+/* Styling for the Forgot Password Link */
+.psw {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 2em;
+}
+
+.psw a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.psw a:hover {
+  color: #b01dc3;
+}
+
+.psw a::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+/* signup page */
+.container_register {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.container_register input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.container_register hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.registerbtn:hover {
+  background-color: #017148;
+}
+
+#signup_div {
+  max-width: 10px; /* Adjust the width to your desired value */
+  margin: 0 auto;
+}

@@ -1,0 +1,166 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo img:hover {
+  border: 3px solid #f39c12;
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section#hero {
+  background-image: url("background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* section#hero:hover {
+    background-image: url('background2.png');
+    background-size: 30rem;
+} */
+
+.hero-text {
+  color: #222;
+  margin-left: 20em;
+  margin-right: 50em;
+  max-width: 600px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.hero-text:hover {
+  color: aliceblue;
+  background-color: #222;
+  border-radius: 30%;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f39c12;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn_:hover {
+  background-color: transparent;
+  border: 2px solid transparent;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #f39c12;
+}
+
+section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+section h3 {
+  padding-top: 2rem;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.dark-section {
+  background-color: #222;
+  color: #fff;
+}
+
+.container_about {
+  color: aliceblue;
+  background-color: #222;
+  padding-bottom: 2rem;
+}
+
+.containera_about h3 {
+  text-decoration: underline;
+}
+
+.container_about p {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: justify;
+}
+
+section .btn {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}

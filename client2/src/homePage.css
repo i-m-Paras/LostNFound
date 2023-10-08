@@ -1,0 +1,217 @@
+.parent-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 14em;
+  height: 100vh;
+  background-color: rgb(62, 62, 148);
+}
+
+.container3 {
+  justify-content: right;
+  background-color: aliceblue;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  width: 84em;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container2 .menu {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+ol {
+  width: 100%;
+  list-style: none;
+}
+.btm {
+  width: 100%;
+  list-style: none;
+  margin-top: auto;
+}
+ol li {
+  display: block;
+  width: 100%;
+}
+ol li a {
+  color: #fbfdce;
+  padding: 15px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: relative;
+  transition: 0.3s;
+}
+
+ol li a i {
+  width: 70px;
+  font-size: 25x;
+  text-align: center;
+  padding-left: 30px;
+}
+ol li:hover a {
+  background: #030303;
+  color: #00eaff;
+  letter-spacing: 5px;
+}
+.heading {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* item css */
+.itemlist {
+  margin-top: 3rem;
+  margin-left: 10rem;
+  margin-right: 15rem;
+  height: 15rem;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  margin-left: 2rem;
+  max-width: 50%;
+  max-height: 100%;
+}
+
+.itemlist ul {
+  list-style: none;
+  margin-left: 2rem;
+}
+
+.itemlist .Place {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.itemlist button {
+  background-color: #007bff;
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.itemlist button:hover {
+  background-color: #4478b0;
+}
+.itemlist button.cancel {
+  background-color: red; /* Set the background color to red */
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.itemlist button.cancel:hover {
+  background-color: rgb(169, 77, 77);
+}
+
+/* upload page css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* Style the "Choose File" button */
+.custom-file-input-container {
+  display: inline-block;
+  position: relative;
+}
+
+.custom-file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-file-label {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-file-label:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Hide the default file input button */
+.form-group input[type="file"] {
+  display: none;
+}
+
+.btn-submit {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
