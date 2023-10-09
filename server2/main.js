@@ -47,7 +47,7 @@ mongoose
     const server = app.listen(port);
     const io = new Server(server, {
       cors: {
-        origin: "http://localhost:3000",
+        origin: "https://6523e75e20689500998b58c3--lucent-lokum-89abf1.netlify.app/",
         methods: ["GET", "POST"],
       },
     });
