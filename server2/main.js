@@ -9,7 +9,7 @@ require("dotenv").config();
 
 const BASE_URL = process.env.BASE_URL;
 const DATABASE = process.env.DATABASE;
-const port = process.env.PORT;
+const port = process.env.PORT || 8080;
 
 const errorController = require("./controllers/error");
 const userController = require("./controllers/user");
