@@ -66,20 +66,11 @@ Follow these steps to set up the project locally:
 
 - Implement user profiles for a more personalized experience.
 - Enhance the search functionality with advanced filters.
-- Add image upload capabilities for lost items.
+- Upgrade image upload capabilities for lost items.
 
-## Contributing
-
-If you would like to contribute to LostNFound, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any questions, feedback, or collaboration opportunities, feel free to contact us at [your-email@example.com].
+For any questions, feedback, or collaboration opportunities, feel free to contact us at awasthiparas6@gmail.com.
 
----
 
-Feel free to customize the README to include additional details or sections specific to your project. This template provides a basic structure to help you get started.
