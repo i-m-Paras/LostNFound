@@ -2,7 +2,14 @@
 
 LostNFound is an ongoing MERN (MongoDB, Express, React, Node.js) project designed to address the common issue of lost items on campus. The project focuses on creating a platform where users can report and search for lost belongings. The application utilizes React for the front-end, Express for the back-end, and MongoDB as the database. Additionally, a real-time chat system powered by Socket.io is integrated to facilitate communication between users and aid in the process of recovering lost items.
 
+## Getting Started
 
+Explore the LostNFound application using the provided sample credentials:
+
+- **Email:** ram@gmail.com
+- **Password:** 12345
+
+Access the app: [LostNFound App](https://lnkd.in/dnB3XAGP)
 
 ## Features
 
@@ -12,14 +19,6 @@ LostNFound is an ongoing MERN (MongoDB, Express, React, Node.js) project designe
 - **Search Functionality:** Allows users to search for lost items based on various criteria, making it easier to locate belongings.
 - **Responsive Design:** Utilizes React for a responsive and intuitive user interface across different devices.
 
-## Getting Started
-
-Explore the LostNFound application using the provided sample credentials:
-
-- **Email:** ram@gmail.com
-- **Password:** 12345
-
-Access the app: [LostNFound App](https://lnkd.in/dnB3XAGP)
 
 ## Technologies Used
 
@@ -35,7 +34,7 @@ Follow these steps to set up the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/lostnfound.git
+   git clone https://github.com/i-m-Paras/lostnfound.git
    ```
 
 2. Install dependencies:
